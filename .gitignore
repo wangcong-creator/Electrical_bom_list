@@ -1,0 +1,15 @@
+# Local dev cache — 300MB+, regenerable via enrich_products.py, over GitHub's 100MB file limit
+product_cache.json
+
+# Backup/log files from local runs
+*.bak-*
+fix_images.log
+fix_images_err.log
+export_images.log
+.env
+
+# Local dev tooling, not part of the project
+__pycache__/
+.claude/
+.vscode/
+.tokenize/
